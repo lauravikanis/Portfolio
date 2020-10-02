@@ -55,7 +55,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: Arial;
+  font-family: Karla;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -5510,7 +5510,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: Arial;
+  font-family: Karla;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5612,7 +5612,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: Arial;
+  font-family: Karla;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9896,18 +9896,24 @@ h3 {
 body {
   margin: 20px;
   background-color: #00334e;
+  text-align: center;
+}
+
+.headimg {
+  max-height: 25em;
+  border-radius: 5px;
 }
 
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  padding: 10em;
+  padding-top: 5em;
+  padding-bottom: 15em;
 }
 
 .card {
   background-color: #ee6f57;
   border: solid #00334e;
-  border-radius: 5px;
 }
 
 .card-text {
@@ -9917,6 +9923,11 @@ body {
 .card-title {
   color: #00334e;
   font-weight: bold;
+}
+
+.about {
+  padding-top: 5em;
+  padding-bottom: 15em;
 }
 
 /*# sourceMappingURL=custom.css.map */
