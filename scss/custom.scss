@@ -3,7 +3,7 @@
 $body-bg: #000(255, 255, 255);
 $body-color: white;
 $primary: hotpink;
-$font-family-base: Arial;
+$font-family-base: Karla;
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -13,17 +13,12 @@ $font-family-base: Arial;
 body {
   margin: 20px;
   background-color: #00334e;
-}
-.jumbotron {
   text-align: center;
-  background-color: transparent;
-  padding: 10em;
 }
 
 .card {
   background-color: #ee6f57;
   border: solid #00334e;
-  border-radius: 5px;
 }
 
 .card-text {
@@ -32,4 +27,41 @@ body {
 .card-title {
   color: #00334e;
   font-weight: bold;
+}
+
+.about {
+  padding-top: 10em;
+  padding-bottom: 15em;
+}
+
+.headimage {
+  background-image: url("/images/IMG_4562_ret.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  color: #ee6f57;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px #00334e;
+}
+
+.hello-small {
+  font-size: 1.5rem;
+  font-weight: medium;
+  text-shadow: 5px 0 10px #000000;
+}
+
+a {
+  color: white;
+}
+
+.contact {
+  padding: 2.5rem 5rem;
 }
