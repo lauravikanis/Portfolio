@@ -9895,12 +9895,28 @@ h3 {
 }
 body {
   margin: 20px;
-  background-color: lightgray;
+  background-color: #00334e;
 }
 
 .jumbotron {
   text-align: center;
   background-color: transparent;
+  padding: 10em;
+}
+
+.card {
+  background-color: #ee6f57;
+  border: solid #00334e;
+  border-radius: 5px;
+}
+
+.card-text {
+  color: #00334e;
+}
+
+.card-title {
+  color: #00334e;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=custom.css.map */
