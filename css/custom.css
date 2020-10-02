@@ -9894,9 +9894,10 @@ h3 {
   }
 }
 body {
-  margin: 20px;
+  margin: 10px;
   background-color: #00334e;
   text-align: center;
+  padding: 0;
 }
 
 .card {
@@ -9913,11 +9914,6 @@ body {
   font-weight: bold;
 }
 
-.about {
-  padding-top: 10em;
-  padding-bottom: 15em;
-}
-
 .headimage {
   background-image: url("/images/IMG_4562_ret.jpg");
   background-size: cover;
@@ -9928,6 +9924,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0;
 }
 
 h1 {
@@ -9946,8 +9943,22 @@ a {
   color: white;
 }
 
-.contact {
-  padding: 2.5rem 5rem;
+.mailbutton {
+  margin: 7.5em;
+  padding: 10em;
+}
+
+#contact {
+  padding: 5rem;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+#about {
+  margin: 2.5em;
+  padding-top: 5em;
 }
 
 /*# sourceMappingURL=custom.css.map */
