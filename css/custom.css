@@ -9899,18 +9899,6 @@ body {
   text-align: center;
 }
 
-.headimg {
-  max-height: 25em;
-  border-radius: 5px;
-}
-
-.jumbotron {
-  text-align: center;
-  background-color: transparent;
-  padding-top: 5em;
-  padding-bottom: 15em;
-}
-
 .card {
   background-color: #ee6f57;
   border: solid #00334e;
@@ -9926,8 +9914,32 @@ body {
 }
 
 .about {
-  padding-top: 5em;
+  padding-top: 10em;
   padding-bottom: 15em;
+}
+
+.headimage {
+  background-image: url("/images/IMG_4562_ret.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  color: #ee6f57;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px #00334e;
+}
+
+.hello-small {
+  font-size: 1rem;
+  font-weight: medium;
+  text-shadow: 0 0 10px #000000;
 }
 
 /*# sourceMappingURL=custom.css.map */
