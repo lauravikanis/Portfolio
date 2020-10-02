@@ -1,6 +1,6 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: #000;
+$body-bg: #000(255, 255, 255);
 $body-color: white;
 $primary: hotpink;
 $font-family-base: Arial;
@@ -12,4 +12,9 @@ $font-family-base: Arial;
 
 body {
   margin: 20px;
+  background-color: lightgray;
+}
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
 }
