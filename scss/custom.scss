@@ -47,13 +47,21 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   text-shadow: 0 0 10px #00334e;
 }
 
 .hello-small {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: medium;
-  text-shadow: 0 0 10px #000000;
+  text-shadow: 5px 0 10px #000000;
+}
+
+a {
+  color: white;
+}
+
+.contact {
+  padding: 2.5rem 5rem;
 }
