@@ -9925,7 +9925,7 @@ body {
 
 .img-fluid {
   min-width: 375px;
-  max-height: 80vmax;
+  max-height: 90vh;
 }
 
 h1 {
