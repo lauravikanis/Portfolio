@@ -3,73 +3,101 @@
 $body-bg: #000(255, 255, 255);
 $body-color: white;
 $primary: hotpink;
-$font-family-base: Karla;
+$font-family-base: Lato;
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Add you custom CSS
 
+// Colors:
+// #1c1c1c - grey
+// #5E6569 - light grey
+// #d93d04 - orange
+// #0339A6 - blue
+// white
+
 body {
   margin: 10px;
-  background-color: #00334e;
+  background-color: #1c1c1c;
   text-align: center;
   padding: 0;
 }
-
+.navpic {
+  border-radius: 50px;
+}
 .card {
-  background-color: #ee6f57;
-  border: solid #00334e;
+  margin: 0.75rem;
+  background-color: #d93d04;
+  border: solid #1c1c1c;
 }
 
 .card-text {
-  color: #00334e;
+  color: #1c1c1c;
 }
 .card-title {
-  color: #00334e;
+  color: #1c1c1c;
   font-weight: bold;
 }
-
-.headimage {
-  background-image: url("/images/IMG_4562_ret.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 80vh;
-  color: #ee6f57;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 0;
+.cover {
+  padding: 2.5em;
+}
+.img-fluid {
+  min-width: 375px;
+  max-height: 80vmax;
 }
 
 h1 {
   font-size: 4rem;
-  font-weight: bold;
-  text-shadow: 0 0 10px #00334e;
+  font-weight: bolder;
+  font-family: "Roboto Mono", monospace;
+}
+h2 {
+  font-family: "Roboto Mono", monospace;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Roboto Mono", monospace;
+  line-height: 1.5;
 }
 
 .hello-small {
   font-size: 1.5rem;
   font-weight: medium;
-  text-shadow: 5px 0 10px #000000;
+}
+.card-body {
+  padding: 1.5em;
+}
+.card-title {
+  font-family: "Roboto Mono";
 }
 
 a {
   color: white;
+  font-size: 1rem;
 }
 .mailbutton {
-  margin: 7.6em;
+  margin: 5em;
   padding: 10em;
 }
 
-.contact {
-  padding: 5rem;
-}
 .container {
   margin: 0 auto;
 }
 #about {
-  margin: 2.5em;
-  padding-top: 5em;
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+.btn {
+  margin-top: 2.5rem;
+}
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 2.5rem;
+  background-color: #0339a6;
+}
+.footer-link {
+  padding: rem;
 }
